@@ -1,0 +1,87 @@
+<style>
+  :root {
+    --primary-red: #C8102E;
+    --gold-yellow: #FFD700;
+    --light-yellow: #FFF9E6;
+  }
+
+  .edu-section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: var(--light-yellow); /* Nền vàng nhạt cho dịu mắt */
+    border-left: 8px solid var(--primary-red);
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .edu-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+  }
+
+  .edu-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .edu-image {
+    flex: 1;
+    border: 3px solid var(--gold-yellow);
+    position: relative;
+  }
+
+  .edu-image img {
+    width: 100%;
+    display: block;
+  }
+
+  .edu-info {
+    flex: 2;
+  }
+
+  .edu-info h2 {
+    color: var(--primary-red);
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+
+  .edu-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  .read-more-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--primary-red);
+    color: var(--gold-yellow) !important;
+    font-weight: bold;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    box-shadow: 2px 2px 10px rgba(200, 16, 46, 0.3);
+  }
+</style>
+
+<div class="edu-section">
+  <a href="https://www.qdnd.vn/giao-duc-khoa-hoc/cac-van-de/giao-duc-quoc-phong-va-an-ninh-cho-hoc-sinh-sinh-vien-chu-trong-truyen-cam-hung-cho-nguoi-hoc-719663" class="edu-card" target="_blank">
+    
+    <div class="edu-image">
+      <img src="https://file.qdnd.vn/data/images/0/2019/06/19/vuongthuy/19062019vthuy40.jpg" alt="Giáo dục quốc phòng">
+    </div>
+
+    <div class="edu-info">
+      <h2>Giáo dục Quốc phòng & An ninh cho HSSV</h2>
+      <p>Chú trọng truyền cảm hứng cho người học, giúp thế hệ trẻ hiểu rõ giá trị của hòa bình và trách nhiệm bảo vệ Tổ quốc...</p>
+      <span class="read-more-btn">Đọc bài viết chi tiết ★</span>
+    </div>
+    
+  </a>
+</div>
